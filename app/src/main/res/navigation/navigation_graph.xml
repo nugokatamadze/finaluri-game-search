@@ -62,5 +62,9 @@
     <fragment
         android:id="@+id/forgotPassFragment"
         android:name="com.example.gamessearchapp.ForgotPassFragment"
-        android:label="ForgotPassFragment" />
+        android:label="ForgotPassFragment" >
+        <action
+            android:id="@+id/action_forgotPassFragment_to_loginnFragment"
+            app:destination="@id/loginnFragment" />
+    </fragment>
 </navigation>

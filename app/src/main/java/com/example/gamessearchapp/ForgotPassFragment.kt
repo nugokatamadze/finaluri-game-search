@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.gamessearchapp.databinding.FragmentForgotPassBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -27,6 +28,9 @@ class ForgotPassFragment : Fragment() {
     }
 
     private fun setOnClickListener() {
+        binding.btBacklog.setOnClickListener{
+            findNavController().navigate(ForgotPassFragmentDirections.actionForgotPassFragmentToLoginnFragment())
+        }
         binding.sendMailBt.setOnClickListener {
             val email = binding.email.text.toString()
             if (email.isEmpty()) {
