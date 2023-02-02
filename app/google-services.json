@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712122885557",
+    "project_id": "luga-1429b",
+    "storage_bucket": "luga-1429b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712122885557:android:bb10993e69dac3827ca5fc",
+        "android_client_info": {
+          "package_name": "com.example.gamessearchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712122885557-3jqkbpb68qrkak26smcc0fuel3act6f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDAPJyqKOQmSEhzWAVoN8xj1OFbvR87eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712122885557-3jqkbpb68qrkak26smcc0fuel3act6f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
