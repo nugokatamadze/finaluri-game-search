@@ -25,7 +25,11 @@ class LoginnFragment : BaseFragment<FragmentLoginnBinding>(FragmentLoginnBinding
         binding.regBut.setOnClickListener {
             findNavController().navigate(LoginnFragmentDirections.actionLoginnFragmentToRegistrationnFragment())
         }
+        binding.forgotpass.setOnClickListener{
+            findNavController().navigate(LoginnFragmentDirections.actionLoginnFragmentToForgotPassFragment())
+        }
     }
+
 
     private fun loginActivityListeners() {
         binding.loginbtn.setOnClickListener {

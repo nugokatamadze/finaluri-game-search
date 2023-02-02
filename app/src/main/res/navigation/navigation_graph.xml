@@ -44,6 +44,9 @@
         <action
             android:id="@+id/action_loginnFragment_to_registrationnFragment"
             app:destination="@id/registrationnFragment" />
+        <action
+            android:id="@+id/action_loginnFragment_to_forgotPassFragment"
+            app:destination="@id/forgotPassFragment" />
     </fragment>
     <fragment
         android:id="@+id/registrationnFragment"
@@ -56,4 +59,8 @@
             android:id="@+id/action_registrationnFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/forgotPassFragment"
+        android:name="com.example.gamessearchapp.ForgotPassFragment"
+        android:label="ForgotPassFragment" />
 </navigation>
